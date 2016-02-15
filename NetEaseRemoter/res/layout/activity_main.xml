@@ -14,13 +14,7 @@
         android:id="@+id/btnConnect"  
         android:layout_width="fill_parent"  
         android:layout_height="wrap_content"  
-        android:text="@string/connect" />  
-  
-    <Button  
-        android:id="@+id/btnSend"  
-        android:layout_width="fill_parent"  
-        android:layout_height="wrap_content"  
-        android:text="@string/send" /> 
+        android:text="@string/connect" /> 
         
     <Button  
         android:id="@+id/next"  

@@ -1,6 +1,8 @@
 package com.example.neteaseremoter;
 
 import android.support.v7.app.ActionBarActivity;
+import android.annotation.SuppressLint;
+import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -10,6 +12,7 @@ import android.view.MenuItem;
 import java.io.IOException;  
 import java.io.OutputStream;
 import java.io.PrintStream;  
+import java.lang.reflect.Field;
 import java.net.InetSocketAddress;
 import java.net.Socket;  
 import java.net.SocketTimeoutException;
@@ -27,8 +30,7 @@ public class MainActivity extends ActionBarActivity {
 	  /* ·þÎñÆ÷¶Ë¿Ú */  
 	  private final int SERVER_HOST_PORT = 30303; 
 	    
-	  private Button btnConnect;  
-	  private Button btnSend;
+	  private Button btnConnect;
 	  private Button next;
 	  private Button privor;
 	  private Button up;
@@ -59,12 +61,11 @@ public class MainActivity extends ActionBarActivity {
 	        }  
 	  
 	    };   
-	
+	    
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
 		
 		initView();  
 		  
@@ -79,15 +80,6 @@ public class MainActivity extends ActionBarActivity {
 	    	  scThread.start();
 	      }  
 	    });  
-	      
-	    btnSend.setOnClickListener(new Button.OnClickListener()  
-	    {  
-	      @Override  
-	      public void onClick(View v)  
-	      {
-	    	  //sendMsg(CMD_NEXT);
-	      }  
-	    });
 	    
 	    next.setOnClickListener(new Button.OnClickListener()  
 	    {  
@@ -161,7 +153,6 @@ public class MainActivity extends ActionBarActivity {
 	public void initView()  
 	  {  
 	    btnConnect = (Button)findViewById(R.id.btnConnect);  
-	    btnSend = (Button)findViewById(R.id.btnSend);  
 	    editSend = (EditText)findViewById(R.id.sendMsg);  
 	  
 	   
@@ -227,7 +218,5 @@ public class MainActivity extends ActionBarActivity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
-	}
-	
-	
+	}	
 }
