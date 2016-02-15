@@ -47,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F0E9F6E1C60EBF1009E213D /* ConnNetEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnNetEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0E9F6E1C60EBF1009E213D /* NetEaseRemoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseRemoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0E9F721C60EBF1009E213D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F0E9F741C60EBF1009E213D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F0E9F751C60EBF1009E213D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		1F0E9F6F1C60EBF1009E213D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F0E9F6E1C60EBF1009E213D /* ConnNetEase.app */,
+				1F0E9F6E1C60EBF1009E213D /* NetEaseRemoter.app */,
 				1F0E9F8A1C60EBF1009E213D /* ConnNetEaseTests.xctest */,
 				1F0E9F951C60EBF1009E213D /* ConnNetEaseUITests.xctest */,
 			);
@@ -225,7 +225,7 @@
 			);
 			name = ConnNetEase;
 			productName = ConnNetEase;
-			productReference = 1F0E9F6E1C60EBF1009E213D /* ConnNetEase.app */;
+			productReference = 1F0E9F6E1C60EBF1009E213D /* NetEaseRemoter.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1F0E9F891C60EBF1009E213D /* ConnNetEaseTests */ = {
@@ -504,7 +504,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quick.Quick-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NetEaseRemoter;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -519,7 +519,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quick.Quick-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NetEaseRemoter;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
