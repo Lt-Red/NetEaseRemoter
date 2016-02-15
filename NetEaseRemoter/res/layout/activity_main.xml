@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >   
+  
+    <EditText  
+        android:id="@+id/sendMsg" 
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:inputType="text" />
+    
+    <Button  
+        android:id="@+id/btnConnect"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="@string/connect" />  
+  
+    <Button  
+        android:id="@+id/btnSend"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="@string/send" /> 
+        
+    <Button  
+        android:id="@+id/next"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="@string/next" />
+    <Button  
+        android:id="@+id/privor"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="@string/privor" />
+    <Button  
+        android:id="@+id/up"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="@string/up" />
+    <Button  
+        android:id="@+id/down"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="@string/down" />
+    <Button  
+        android:id="@+id/pause"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="@string/pasue" />
+    
+     <Button  
+        android:id="@+id/love"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="@string/love" />
+  
+</LinearLayout>  
