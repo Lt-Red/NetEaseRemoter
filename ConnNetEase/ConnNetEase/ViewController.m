@@ -61,7 +61,7 @@ static const uint16_t kTestPort = 30303;
     
     if ([ipStr isEqualToString:@""]) {
         
-        ipStr = @"192.168.1.206";
+        ipStr = @"192.168.11.124";
         
         [MBProgressHUD showError:@"fill your ip addr" toView:self.view];
     }
